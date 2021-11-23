@@ -1,27 +1,27 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/Spaciousuniversebot'>𝘽𝙖𝙚 𝙎𝙪𝙯𝙮</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/MM_Filter2PM_bot'>Haley Summer</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, Search Movies From Our Group 😍"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝘽𝙖𝙚 𝙎𝙪𝙯𝙮
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: 𝚃𝚎𝚊𝚖 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
+    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <b>Haley Summer</b>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/ZKP143>Team Mallu Movies</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 4
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝚅𝙿𝚂
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v3.8.1 [ 𝙿𝚁𝙾 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝘽𝙖𝙚 𝙎𝙪𝙯𝙮 is a open source project.  
+- <b>Haley Summer</b> is a private source project.  
 
 <b>DEVS:</b>
-- <a href=https://telegram.dog/EvaMariaDevs>Team Eva Maria</a>
+- <a href=https://t.me/MM_Mallu_Movies_Group>Team Mallu Movies</a>
 
 <b>Maintaince By:</b>
-- <a href=https://github.com/kalanakt>Hash Minner</a>
+- <a href=https://t.me/ZKP143>ZKP143</a>
 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and suzy will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Haley will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. eva maria should have admin privillage.
@@ -39,11 +39,11 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Haley Summer supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https//t.me/spaciousuniversebot)</code>
+<code>[Button Text](buttonurl:https//t.me/MM_Filter2PM_bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -70,7 +70,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of suzy
+these are the extra features of <b>Haley</b>
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
@@ -98,7 +98,7 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
-★ 𝙷𝙴𝚁𝙾𝙺𝚄 𝚃𝙸𝙼𝙴 𝙻𝙴𝙵𝚃: <code>{}</code> """
+★ 𝚅𝙿𝚂 𝚃𝙸𝙼𝙴 𝙻𝙴𝙵𝚃: <code>{}</code> """
     LOG_TEXT_G = """#NewGroup #BSB
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
