@@ -420,7 +420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Search Movies & Series From Our Group ➕', url='https://t.me/MM_Mallu_Movies_Group')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 Search', url='https://t.me/MM_Mallu_Movies_Group'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/+21-626z8Zko3YWU1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
