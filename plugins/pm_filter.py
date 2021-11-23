@@ -421,7 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Search Movies & Series From Our Group ➕', url='https://t.me/MM_Mallu_Movies_Group')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+21-626z8Zko3YWU1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+21-626z8Zko3YWU1'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -662,7 +662,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"Here is what i found for your Request {search} \n My PM @SpaciousUniverseBot"
+        cap = f"Here is what i found for your Request {search} \n My PM @MM_Filter2PM_bot"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
