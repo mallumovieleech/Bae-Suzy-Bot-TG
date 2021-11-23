@@ -99,12 +99,12 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
 ★ 𝚅𝙿𝚂 𝚃𝙸𝙼𝙴 𝙻𝙴𝙵𝚃: <code>{}</code> """
-    LOG_TEXT_G = """#NewGroup #BSB
+    LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#NewUser #BSB
+    LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
 """
