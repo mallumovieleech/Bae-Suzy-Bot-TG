@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/+21-626z8Zko3YWU1')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Search Movies & Series From Our Group ➕', url=f'https://t.me/MM_Mallu_Movies_Group')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+21-626z8Zko3YWU1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -84,7 +84,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Search Movies & Series From Our Group ➕', url=f'https://t.me/MM_Mallu_Movies_Group')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+21-626z8Zko3YWU1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
