@@ -77,7 +77,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("It's Not For You 😈", show_alert=True)
+        return await query.answer("മറ്റുള്ളവർ search ആക്കിയ ലിസ്റ്റില് കൈ ഇടാതെ സ്വന്തമായി search ചെയ്തിട്ട് അതിൽ നോക്കുക 😈", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -151,7 +151,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("It's Not For You 😈", show_alert=True)
+        return await query.answer("മറ്റുള്ളവർ search ആക്കിയ ലിസ്റ്റില് കൈ ഇടാതെ സ്വന്തമായി search ചെയ്തിട്ട് അതിൽ നോക്കുക 😈", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
@@ -379,9 +379,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have sent files in pm',show_alert = True)
+                await query.answer('ഇനി ജോയിൻ ആയ ഈ ബോട്ടിൻ്റെ മെസ്സേജ്ലേക് പോയാൽ മതി അവിടെ മൂവി വന്നിട്ടുണ്ടാകും Check Private Message of the Bot that you Joined, I have sent files in Bot pm',show_alert = True)
         except UserIsBlocked:
-            await query.answer('You Blocked Me!!. Start Me In privet chat and try Again.',show_alert = True)
+            await query.answer('ആദ്യം ഈ ബോട്ടിൽ പോയിട്ട് ജോയിൻ ആവുക. അതിനു ശേഷം ഇവിടെ മൂവി ക്ലിക്ക് ചെയ്യുക.👉@MM_Filter2PM_bot👈. First Unblock this bot mahn and then click again movie here',show_alert = True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
         except Exception as e:
@@ -418,10 +418,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/SpaciousUniverseBot?startgroup=true')
+            InlineKeyboardButton('➕ Search Movies & Series From Our Group ➕', url='https://t.me/MM_Mallu_Movies_Group')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TMWAD')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TMWAD'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/MM_Mallu_Movies_Group'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
