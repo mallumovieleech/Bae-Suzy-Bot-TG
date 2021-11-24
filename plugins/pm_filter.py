@@ -662,7 +662,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"Here is what i found for your Request {search} \n My PM @MM_Filter2PM_bot"
+        cap = f"Here is what i found for your Request {search} \n Join This Bot First👉 @MM_Filter2PM_bot ആദ്യം ഈ ബോട്ടിൽ പോയിട്ട് ജോയിൻ ആവുക"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
